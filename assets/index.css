@@ -191,7 +191,7 @@ body{
     .cntn2-box p{
         position: relative;
         margin-left: 15px;
-        text-align: justify;
+        text-align: left;
     }
 
     /* hm-product */
