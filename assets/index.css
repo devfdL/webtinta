@@ -184,6 +184,10 @@ body{
         margin-bottom: 20px;
     }
 
+    .cntn2-box i{
+        width: 50px;
+    }
+
     .cntn2-box p{
         position: relative;
         margin-left: 15px;
