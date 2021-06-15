@@ -1,6 +1,8 @@
 body{
     background-color: white;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Inconsolata';
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 @media only screen and (min-width : 722px) {
@@ -186,5 +188,91 @@ body{
         position: relative;
         margin-left: 15px;
     }
+
+    /* hm-product */
+    .hm-product{
+        position: relative;
+        width: 80vw;
+        left: 10vw;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .hm-product-box{
+        border: 1px solid rgb(207, 207, 207);
+        width: 18vw;
+        margin-right: 0.5vw;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    .hm-product-btn{
+        position: initial;
+        z-index: 9999999;
+        background-color: #343F56;
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        top: 150px;
+        text-align: center;
+    }
+
+    .hm-product-btn a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .hm-product-btn:hover{
+        background-color: #FB9300;
+    }
+
+    /* hm-testi */
+    .hm-testi{
+        position: relative;
+        width: 80vw;
+        left: 10vw;
+        text-align: center;
+        margin-top: 50px;
+        height: 300px;
+        background-color: #fff9ee;
+        padding-top: 40px;
+    }
+
+    /* footer */
+    .footer{
+        background-color: black;
+        position: relative;
+        bottom: -10vh;
+        left: -10px;
+        width: 100vw;
+        color: white;
+        height: 500px;
+    }
+
+    .footerbox{
+        width: 24vw;
+        display: inline-table;
+        margin-left: 50px;
+        height: 400px;
+    }
+
+    .footerbox h1{
+        font-weight: lighter;
+    }
+
+    .footerbox p{
+        color: #717171;
+    }
+
+    .footerbox a{
+        text-decoration: none;
+        color: #717171;
+    }
+
+    .footerbox a:hover{
+        color: #FB9300
+    }
+
+
 
 }

@@ -27,7 +27,7 @@ body{
     .icon {
         display: block;
         position: absolute;
-        right: 20px;
+        right: 30px;
         top: 10px;
         color: black;
         text-decoration: none;
@@ -186,7 +186,7 @@ body{
 
     .cntn2-box{
         display: flex;
-        width: 95%;
+        width: 80%;
         position: relative;
         text-align: left;
         padding: 10px;
@@ -202,5 +202,89 @@ body{
     .cntn2-box h1{
         font-size: 25px;
     }
+
+    /* hm-product */
+    .hm-product{
+        position: relative;
+        width: 80%;
+        left: 10%;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .hm-product-box{
+        border: 1px solid rgb(207, 207, 207);
+        width: 100%;
+        margin-right: 0.5vw;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    .hm-product-btn{
+        position: initial;
+        z-index: 9999999;
+        background-color: #343F56;
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        top: 150px;
+        text-align: center;
+    }
+
+    .hm-product-btn a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .hm-product-btn:hover{
+        background-color: #FB9300;
+    }
+
+    /* hm-testi */
+    .hm-testi{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        text-align: center;
+        margin-top: 50px;
+        background-color: #F5E6CA;
+        padding: 10px;
+    }
+
+    /* footer */
+    .footer{
+        background-color: black;
+        position: relative;
+        width: 105%;
+        bottom: -10vh;
+        left: -10px;
+        color: white;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .footerbox{
+        position: relative;
+        width: 80%;
+        left: 10%;
+    }
+
+    .footerbox h1{
+        font-weight: lighter;
+    }
+
+    .footerbox p{
+        color: #717171;
+    }
+
+    .footerbox a{
+        text-decoration: none;
+        color: #717171;
+    }
+
+    .footerbox a:hover{
+        color: #FB9300
+    }
+
 
 }
