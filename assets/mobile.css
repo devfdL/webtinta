@@ -194,9 +194,14 @@ body{
         margin-bottom: 0px;
     }
 
+    .cntn2-box i{
+        width: 50px;
+    }
+
     .cntn2-box p{
         position: relative;
         left: 20px;
+        text-align: justify;
     }
 
     .cntn2-box h1{
