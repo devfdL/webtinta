@@ -278,6 +278,79 @@ body{
         color: #FB9300
     }
 
+    /* about */
+    .about{
+        position: relative;
+        width: 80vw;
+        left: 10vw;
+        margin-top: 100px;
+        height: 350px;
+        margin-bottom: 100px;
+    }
+
+    .about-l{
+        position: relative;
+        height: 100%;
+        width: 48%;
+        float: left;
+    }
+
+    .about-r{
+        position: relative;
+        height: 100%;
+        width: 48%;
+        float: right;
+        padding-left: 20px;
+    }
+
+    .about-r a{
+        text-decoration: none;
+        color: black;
+        font-size: 28px;
+        position: relative;
+        top: 20px;
+    }
+
+    .about-r a:hover{
+        color: #FB9300
+    }
+
+    /* contact */
+    .contact{
+        position: relative;
+        width: 80vw;
+        left: 10vw;
+        margin-top: 100px;
+        height: 350px;
+        text-align: center;
+    }
+
+    .contact-box{
+        display: inline-flex;
+        position: relative;
+        max-width: 20vw;
+        text-align: left;
+        margin-right: -5px;
+        padding: 10px;
+        height: 120px;
+        margin-bottom: 20px;
+        width: 250px;
+        border: 1px solid rgb(221, 221, 221);
+        background-color: rgb(247, 247, 247);
+        padding-left: 30px;
+    }
+
+    .contact-box i{
+        width: 50px;
+        color: #FB9300
+    }
+
+    .contact-box p{
+        position: relative;
+        margin-left: 15px;
+        text-align: left;
+    }
+
 
 
 }
